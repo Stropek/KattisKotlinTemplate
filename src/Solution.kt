@@ -8,5 +8,5 @@ fun main(args: Array<String>) {
 }
 
 fun solve(stdin: InputStream = System.`in`, stdout: PrintStream = System.out){
-    stdout.println("Hello, World!")
+    stdout.println("Solve me!")
 }

@@ -1,18 +1,24 @@
 package tests
 
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.MethodSource
+import org.junit.jupiter.params.provider.Arguments
 
 import kattis.solution.*
+import org.omg.CORBA.TCKind
 import java.io.*
 import java.nio.charset.Charset
+import java.util.stream.Stream
 
 class KotlinJunitTest {
-    @Test
-    fun fileInput() {
 
-        var inFile = "TestFiles/test.in"
-        var outFile = "TestFiles/test.out"
+    @ParameterizedTest
+    @MethodSource("getTestCases")
+    fun fileInput(testCase: TestCase) {
+
+        var inFile = "$testFilesDir/${testCase.inFile}"
+        var outFile = "$testFilesDir/${testCase.outFile}"
 
         val expected = File(outFile).readText()
 
@@ -25,6 +31,20 @@ class KotlinJunitTest {
                     Assertions.assertEquals(expected, result)
                 }
             }
+        }
+    }
+
+    companion object {
+        val testFilesDir = "TestFiles"
+
+        @JvmStatic fun getTestCases(): Stream<TestCase> {
+            var testCases: ArrayList<TestCase> = arrayListOf()
+
+            File(testFilesDir).walk()
+                    .filter { it.name.endsWith(".in") }
+                    .forEach { testCases.add(TestCase(it.name, it.name.replace(".in", ".out"))) }
+
+            return testCases.stream()
         }
     }
 }
