@@ -42,7 +42,7 @@ class KotlinJunitTest {
 
             File(testFilesDir).walk()
                     .filter { it.name.endsWith(".in") }
-                    .forEach { testCases.add(TestCase(it.name, it.name.replace(".in", ".out"))) }
+                    .forEach { testCases.add(TestCase(it.name, it.name.replace(".in", ".ans"))) }
 
             return testCases.stream()
         }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64d46b1-0807-445e-966d-e69f00ef4d06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/FileInput.kt" afterPath="$PROJECT_DIR$/src/tests/FileInput.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +40,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/tests/Sample.kt" />
         <option value="$PROJECT_DIR$/src/tests/TestCase.kt" />
-        <option value="$PROJECT_DIR$/src/tests/FileInput.kt" />
         <option value="$PROJECT_DIR$/TestFiles/test.out" />
         <option value="$PROJECT_DIR$/src/Solution.kt" />
         <option value="$PROJECT_DIR$/src/tests/KotlinJunitTest.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/tests/FileInput.kt" />
       </list>
     </option>
   </component>
@@ -80,6 +79,17 @@
               <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="KattisKotlinTemplate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KattisKotlinTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KattisKotlinTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,7 +105,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-params-5.0.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -382,18 +392,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/FileInput.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/FileInput.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="44" column="91" lean-forward="false" selection-start-line="44" selection-start-column="91" selection-end-line="44" selection-end-column="91" />
           <folding />
         </state>
       </provider>
