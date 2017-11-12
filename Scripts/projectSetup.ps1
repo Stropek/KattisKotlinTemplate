@@ -29,7 +29,7 @@ Move-Item *.ans TestFiles
 Remove-Item $file
 
 # prepare submit script
-(Get-Content submit.bat).replace('{project_id}', $args[0]) | Set-Content submit.bat
+(Get-Content submit.bat).replace('{project_id}', $args[0].ToLower()) | Set-Content submit.bat
 
 Start-Process idea64 $workingDir.ToString()
 

@@ -12,5 +12,5 @@ fun solve(stdin: InputStream = System.`in`, stdout: PrintStream = System.out){
     val reader = KattisInputReader(stdin)
 
     var line = reader.readLine()
-    stdout.println(line)
+    stdout.print("$line\n")
 }
