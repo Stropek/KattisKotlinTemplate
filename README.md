@@ -1,5 +1,7 @@
 # Kattis Solution
 
+[![Build Status](https://travis-ci.org/Stropek/KattisKotlinTemplate.svg?branch=master)](https://travis-ci.org/Stropek/KattisKotlinTemplate)
+
 Kotlin scaffolding for solving Kattis problems.
 
 # Solving
