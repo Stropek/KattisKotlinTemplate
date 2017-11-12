@@ -28,6 +28,9 @@ Move-Item *.ans TestFiles
 # delete zip file
 Remove-Item $file
 
+# prepare submit script
+(Get-Content submit.bat).replace('{project_id}', $args[0]) | Set-Content submit.bat
+
 Start-Process idea64 $workingDir.ToString()
 
 Remove-Item .git -Recurse -Force
