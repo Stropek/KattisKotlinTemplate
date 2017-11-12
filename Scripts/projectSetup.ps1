@@ -21,6 +21,7 @@ $destination = $shell_app.namespace($workingDir.ToString())
 $destination.Copyhere($zip_file.items())
 Write-Host "Unzipped:" $zip_file
 
+Remove-Item -Recurse -Force TestFiles
 New-Item TestFiles -type directory
 Move-Item *.in TestFiles
 Move-Item *.ans TestFiles
