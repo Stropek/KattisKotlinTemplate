@@ -9,5 +9,5 @@ fun solve(stdin: InputStream = System.`in`, stdout: PrintStream = System.out){
     val reader = KattisInputReader(stdin)
 
     var line = reader.readLine()
-    stdout.print("$line\n")
+    stdout.print("Scaffolding: $line\n")
 }
