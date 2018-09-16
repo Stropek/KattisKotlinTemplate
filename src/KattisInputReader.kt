@@ -9,6 +9,18 @@ class KattisInputReader(stdin: InputStream) {
     fun readLine(): String {
         return bufferedReader.readLine()
     }
+    fun readListOfStrings(): List<String> {
+        return readLine()
+                .trim('\n')
+                .split(' ')
+    }
+    fun readSetOfStrings(): Set<String> {
+        return readListOfStrings().toSet()
+    }
+    fun readPairOfStrings(): Pair<String, String> {
+        val line = readListOfStrings()
+        return Pair(line[0], line[1])
+    }
 
     // Int helper functions
     fun readInt(radix: Int = 10): Int {
