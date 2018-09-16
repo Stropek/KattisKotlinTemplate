@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64d46b1-0807-445e-966d-e69f00ef4d06" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KattisKotlinTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KattisKotlinTemplate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,43 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KattisInputReader.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KattisInputReader.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="n#!!block;n#readLine#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readInt#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readDouble#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -342,8 +300,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4611371030284" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2607997463" />
+        <entry key="$PROJECT_DIR$" value="4611371348661" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3626172780" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="144010213" />
       </map>
@@ -549,7 +507,7 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$" value="IMPORT" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -562,13 +520,13 @@
         <option value="$PROJECT_DIR$/src/tests/KotlinJunitTest.kt" />
         <option value="$PROJECT_DIR$/Scripts/submit.bat" />
         <option value="$PROJECT_DIR$/Scripts/projectSetup.ps1" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/Solution.kt" />
         <option value="$PROJECT_DIR$/submit.bat" />
         <option value="$PROJECT_DIR$/src/tests/FileInput.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/KattisInputReader.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -984,6 +942,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#12#201#0" />
+            <element signature="e#66#96#0" />
+            <element signature="e#66#96#0" />
+            <element signature="e#114#199#0" />
+            <element signature="e#114#199#0" />
+            <element signature="e#264#286#0" />
+            <element signature="e#264#286#0" />
+            <element signature="e#301#389#0" />
+            <element signature="e#390#429#0" />
+            <element signature="e#390#429#0" />
+            <element signature="e#448#487#0" />
+            <element signature="e#448#487#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,15 +1166,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#12#201#0" />
+            <element signature="e#66#96#0" />
+            <element signature="e#66#96#0" />
+            <element signature="e#114#199#0" />
+            <element signature="e#114#199#0" />
+            <element signature="e#264#286#0" />
+            <element signature="e#264#286#0" />
+            <element signature="e#301#389#0" />
+            <element signature="e#390#429#0" />
+            <element signature="e#390#429#0" />
+            <element signature="e#448#487#0" />
+            <element signature="e#448#487#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KattisInputReader.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1225,10 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
