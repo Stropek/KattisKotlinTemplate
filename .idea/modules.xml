@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KattisKotlinTemplate.iml" filepath="$PROJECT_DIR$/KattisKotlinTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" group="KattisKotlinTemplate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" group="KattisKotlinTemplate" />
     </modules>
   </component>
 </project>
