@@ -5,6 +5,10 @@ import java.io.InputStreamReader
 class KattisInputReader(stdin: InputStream) {
     private val bufferedReader: BufferedReader = BufferedReader(InputStreamReader(stdin))
 
+    fun readLineNullable(): String? {
+        return bufferedReader.readLine()
+    }
+
     // String helper functions
     fun readLine(): String {
         return bufferedReader.readLine()
@@ -23,21 +27,39 @@ class KattisInputReader(stdin: InputStream) {
     }
 
     // Int helper functions
-    fun readInt(radix: Int = 10): Int {
-        return readLine().toInt(radix)
+    fun readInt(radix: Int = 10): Int? {
+        return readLineNullable()?.toInt(radix)
     }
-    fun readListOfInts(radix: Int = 10): List<Int> {
-        return readLine()
-                .trim('\n')
-                .split(' ')
-                .map { it.toInt(radix) }
+    fun readListOfInts(radix: Int = 10): List<Int>? {
+        return readLineNullable()
+                ?.trim('\n')
+                ?.split(' ')
+                ?.map { it.toInt(radix) }
     }
-    fun readSetOfInts(radix: Int = 10): Set<Int> {
-        return readListOfInts(radix).toSet()
+    fun readSetOfInts(radix: Int = 10): Set<Int>? {
+        return readListOfInts(radix)?.toSet()
     }
-    fun readPairOfInts(): Pair<Int, Int> {
+    fun readPairOfInts(): Pair<Int, Int>? {
         val line = readListOfInts()
-        return Pair(line[0], line[1])
+        return if (line != null) Pair(line[0], line[1]) else null
+    }
+
+    // Long helper functions
+    fun readLong(radix: Int = 10): Long? {
+        return readLineNullable()?.toLong(radix)
+    }
+    fun readListOfLongs(radix: Int = 10): List<Long>? {
+        return readLineNullable()
+                ?.trim('\n')
+                ?.split(' ')
+                ?.map { it.toLong(radix) }
+    }
+    fun readSetOfLongs(radix: Int = 10): Set<Long>? {
+        return readListOfLongs(radix)?.toSet()
+    }
+    fun readPairOfLongs(): Pair<Long, Long>? {
+        val line = readListOfLongs()
+        return if (line != null) Pair(line[0], line[1]) else null
     }
 
     // Double helper functions
