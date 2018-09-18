@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/KattisKotlinTemplate.iml" filepath="$PROJECT_DIR$/KattisKotlinTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" group="KattisKotlinTemplate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" group="KattisKotlinTemplate" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
     </modules>
   </component>
 </project>

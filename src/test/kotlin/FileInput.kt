@@ -1,27 +1,35 @@
-package tests
-
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.MethodSource
+import tests.TestCase
 
 import java.io.*
 import java.nio.charset.Charset
 import java.util.stream.Stream
 
-import solve
-
 class KotlinJunitTest {
+    companion object {
+
+        @JvmStatic
+        fun getTestCases(): Stream<TestCase> {
+            val testDataDirectory = "{TEST_DATA_DIRECTORY}"
+            val testCases: ArrayList<TestCase> = arrayListOf()
+
+            File(testDataDirectory).walk()
+                    .filter { it.absolutePath.endsWith(".in") }
+                    .forEach { testCases.add(TestCase(it.absolutePath, it.absolutePath.replace(".in", ".ans"))) }
+
+            return testCases.stream()
+        }
+    }
 
     @ParameterizedTest
     @MethodSource("getTestCases")
     fun fileInput(testCase: TestCase) {
 
-        var inFile = "$testFilesDir/${testCase.inFile}"
-        var outFile = "$testFilesDir/${testCase.outFile}"
+        val expected = File(testCase.outFile).readText()
 
-        val expected = File(outFile).readText()
-
-        File(inFile).inputStream().use { inStream ->
+        File(testCase.inFile).inputStream().use { inStream ->
             ByteArrayOutputStream().use { outStream ->
                 PrintStream(outStream).use { printStream ->
                     solve(inStream, printStream)
@@ -30,20 +38,6 @@ class KotlinJunitTest {
                     Assertions.assertEquals(expected, result)
                 }
             }
-        }
-    }
-
-    companion object {
-        val testFilesDir = "TestFiles"
-
-        @JvmStatic fun getTestCases(): Stream<TestCase> {
-            val testCases: ArrayList<TestCase> = arrayListOf()
-
-            File(testFilesDir).walk()
-                    .filter { it.name.endsWith(".in") }
-                    .forEach { testCases.add(TestCase(it.name, it.name.replace(".in", ".ans"))) }
-
-            return testCases.stream()
         }
     }
 }

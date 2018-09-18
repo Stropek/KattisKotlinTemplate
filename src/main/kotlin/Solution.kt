@@ -8,6 +8,6 @@ fun main(args: Array<String>) {
 fun solve(stdin: InputStream = System.`in`, stdout: PrintStream = System.out){
     val reader = KattisInputReader(stdin)
 
-    var line = reader.readLine()
+    val line = reader.readLine()
     stdout.print("Scaffolding: $line\n")
 }

@@ -29,6 +29,11 @@ Move-Item *.ans TestFiles
 # delete zip file
 Remove-Item $file
 
+# substitute TEST_DATA_DIRECTORY path
+$testDataDirectory = Join-Path $workingDir TestFiles
+$fileInputPath = Join-Path $workingDir src\test\kotlin\FileInput.kt
+(Get-Content $fileInputPath).replace('{TEST_DATA_DIRECTORY}', $args[0].ToLower()) | Set-Content $fileInputPath
+
 # prepare submit script
 (Get-Content submit.bat).replace('{project_id}', $args[0].ToLower()) | Set-Content submit.bat
 
