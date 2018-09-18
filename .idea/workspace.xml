@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64d46b1-0807-445e-966d-e69f00ef4d06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KattisKotlinTemplate_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KattisKotlinTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KattisKotlinTemplate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/projectSetup.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/projectSetup.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KattisInputReader.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/FileInput.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TestCase.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -90,35 +73,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="projectSetup.ps1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/projectSetup.ps1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="34" column="110" selection-start-line="34" selection-start-column="110" selection-end-line="34" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -555,9 +510,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Solution.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/TestCase.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/FileInput.kt" />
-        <option value="$PROJECT_DIR$/Scripts/projectSetup.ps1" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Scripts/projectSetup.ps1" />
       </list>
     </option>
   </component>
@@ -568,9 +523,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -608,15 +563,11 @@
               <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="KattisKotlinTemplate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KattisKotlinTemplate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -637,7 +588,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,27 +634,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in KattisKotlinTemplate_test">
+  <component name="RunManager" selected="Groovy.build">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="D:/Programming/OnlineJudge/Scaffolding/KattisKotlinTemplate []" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration name="KattisKotlinTemplate [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -747,6 +682,23 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+    </configuration>
+    <configuration name="All in KattisKotlinTemplate_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KattisKotlinTemplate_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="All in KattisKotlinTemplate_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KattisKotlinTemplate_test" />
@@ -853,18 +805,18 @@
       <item itemvalue="Kotlin.Unnamed" />
       <item itemvalue="Groovy.build" />
       <item itemvalue="JUnit.tests in KattisKotlinTemplate" />
-      <item itemvalue="Gradle.D:/Programming/OnlineJudge/Scaffolding/KattisKotlinTemplate []" />
       <item itemvalue="Gradle.KattisKotlinTemplate [build]" />
       <item itemvalue="Gradle.KattisKotlinTemplate [assemble]" />
       <item itemvalue="JUnit.All in KattisKotlinTemplate_test" />
+      <item itemvalue="JUnit.All in KattisKotlinTemplate_test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in KattisKotlinTemplate_test (1)" />
         <item itemvalue="JUnit.All in KattisKotlinTemplate_test" />
         <item itemvalue="Gradle.KattisKotlinTemplate [assemble]" />
         <item itemvalue="Gradle.KattisKotlinTemplate [build]" />
         <item itemvalue="JUnit.tests in KattisKotlinTemplate" />
-        <item itemvalue="Gradle.D:/Programming/OnlineJudge/Scaffolding/KattisKotlinTemplate []" />
       </list>
     </recent_temporary>
   </component>
@@ -924,7 +876,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.32905984" />
@@ -933,26 +884,26 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060403" side_tool="true" weight="0.32763532" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3295302" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" visible="true" weight="0.32763532" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986577" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.32763532" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49328858" weight="0.3233618" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26107383" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32905984" />
-      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49932885" weight="0.32905984" />
-      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.23020135" />
+      <window_info anchor="right" id="Gradle" order="9" weight="0.23020135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955848" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955848" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4986577" weight="0.32763532" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49932885" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1006,20 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="n#!!block;n#readLine#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readInt#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readDouble#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,20 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!block;n#readLine#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readInt#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readDouble#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,20 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="n#!!block;n#readLine#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfStrings#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readInt#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfInts#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readDouble#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readListOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-            <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,16 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/FileInput.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/submit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4365">
@@ -1233,13 +1132,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/init.ps1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/projectSetup.ps1">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="34" column="110" selection-start-line="34" selection-start-column="110" selection-end-line="34" selection-end-column="110" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1250,10 +1146,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/FileInput.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/projectSetup.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

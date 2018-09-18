@@ -21,7 +21,10 @@ $destination = $shell_app.namespace($workingDir.ToString())
 $destination.Copyhere($zip_file.items())
 Write-Host "Unzipped:" $zip_file
 
-Remove-Item -Recurse -Force TestFiles
+if ((Test-Path -Path TestFiles) -eq $true) {
+    Remove-Item -Recurse -Force TestFiles
+}
+
 New-Item TestFiles -type directory
 Move-Item *.in TestFiles
 Move-Item *.ans TestFiles
@@ -32,7 +35,7 @@ Remove-Item $file
 # substitute TEST_DATA_DIRECTORY path
 $testDataDirectory = Join-Path $workingDir TestFiles
 $fileInputPath = Join-Path $workingDir src\test\kotlin\FileInput.kt
-(Get-Content $fileInputPath).replace('{TEST_DATA_DIRECTORY}', $args[0].ToLower()) | Set-Content $fileInputPath
+(Get-Content $fileInputPath).replace('{TEST_DATA_DIRECTORY}', $testDataDirectory.Replace("\", "\\")) | Set-Content $fileInputPath
 
 # prepare submit script
 (Get-Content submit.bat).replace('{project_id}', $args[0].ToLower()) | Set-Content submit.bat
