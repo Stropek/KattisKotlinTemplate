@@ -4,7 +4,9 @@
     <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b64d46b1-0807-445e-966d-e69f00ef4d06" name="Default" comment="" />
+    <list default="true" id="b64d46b1-0807-445e-966d-e69f00ef4d06" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/submit.bat" beforeDir="false" afterPath="$PROJECT_DIR$/submit.bat" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -71,30 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KattisInputReader.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/KattisInputReader.kt">
+      <file leaf-file-name="submit.bat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/submit.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#readLineNullable#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readLine#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfStrings#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readInt#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfInts#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readLong#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfLongs#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfLongs#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfLongs#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readDouble#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readListOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-                <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
-              </folding>
+            <state>
+              <caret column="115" selection-start-column="115" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -529,7 +512,6 @@
         <option value="$PROJECT_DIR$/src/tests/KotlinJunitTest.kt" />
         <option value="$PROJECT_DIR$/Scripts/submit.bat" />
         <option value="$PROJECT_DIR$/src/Solution.kt" />
-        <option value="$PROJECT_DIR$/submit.bat" />
         <option value="$PROJECT_DIR$/src/tests/FileInput.kt" />
         <option value="$PROJECT_DIR$/src/KattisInputReader.kt" />
         <option value="$PROJECT_DIR$/.travis.yml" />
@@ -540,6 +522,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Scripts/projectSetup.ps1" />
         <option value="$PROJECT_DIR$/src/main/kotlin/KattisInputReader.kt" />
+        <option value="$PROJECT_DIR$/submit.bat" />
       </list>
     </option>
   </component>
@@ -551,7 +534,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -585,6 +568,19 @@
               <item name="KattisKotlinTemplate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KattisKotlinTemplate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="KattisKotlinTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KattisKotlinTemplate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -920,7 +916,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1117,13 +1113,6 @@
     <entry file="file://$PROJECT_DIR$/src/tests/KotlinJunitTest.kt" />
     <entry file="file://$PROJECT_DIR$/src/readers/KattisInputReader.kt" />
     <entry file="file://$PROJECT_DIR$/Scripts/test.ps1" />
-    <entry file="file://$PROJECT_DIR$/submit.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2079" />
@@ -1192,13 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/projectSetup.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/KattisInputReader.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1222,6 +1204,20 @@
             <element signature="n#!!block;n#readSetOfDoubles#0;n#!!block;n#KattisInputReader#0" />
             <element signature="n#!!block;n#readPairOfDoubles#0;n#!!block;n#KattisInputReader#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/projectSetup.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="115" selection-start-column="115" selection-end-column="115" />
         </state>
       </provider>
     </entry>

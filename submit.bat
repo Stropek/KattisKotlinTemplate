@@ -1,1 +1,1 @@
-python .\Scripts\submit.py -p {project_id} -m SolutionKt -l Kotlin .\src\Solution.kt .\src\KattisInputReader.kt
+python .\Scripts\submit.py -p {project_id} -m SolutionKt -l Kotlin .\src\main\kotlin\Solution.kt .\src\main\kotlin\KattisInputReader.kt
