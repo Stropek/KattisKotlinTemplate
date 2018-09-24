@@ -25,6 +25,10 @@ class KattisInputReader(stdin: InputStream) {
         val line = readListOfStrings()
         return Pair(line[0], line[1])
     }
+    fun readTripleOfStrings(): Triple<String, String, String> {
+        val line = readListOfStrings()
+        return Triple(line[0], line[1], line[2])
+    }
 
     // Int helper functions
     fun readInt(radix: Int = 10): Int? {
@@ -42,6 +46,10 @@ class KattisInputReader(stdin: InputStream) {
     fun readPairOfInts(): Pair<Int, Int>? {
         val line = readListOfInts()
         return if (line != null) Pair(line[0], line[1]) else null
+    }
+    fun readTripleOfInts(): Triple<Int, Int, Int>? {
+        val line = readListOfInts()
+        return if (line != null)  Triple(line[0], line[1], line[2]) else null
     }
 
     // Long helper functions
@@ -61,6 +69,10 @@ class KattisInputReader(stdin: InputStream) {
         val line = readListOfLongs()
         return if (line != null) Pair(line[0], line[1]) else null
     }
+    fun readTripleOfLongs(): Triple<Long, Long, Long>? {
+        val line = readListOfLongs()
+        return if (line != null)  Triple(line[0], line[1], line[2]) else null
+    }
 
     // Double helper functions
     fun readDouble(): Double {
@@ -78,5 +90,9 @@ class KattisInputReader(stdin: InputStream) {
     fun readPairOfDoubles(): Pair<Double, Double> {
         val line = readListOfDoubles()
         return Pair(line[0], line[1])
+    }
+    fun readTripleOfDoubles(): Triple<Double, Double, Double> {
+        val line = readListOfDoubles()
+        return Triple(line[0], line[1], line[2])
     }
 }
